@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(135deg, #43cea2 0%, #185a9d 100%);
+  font-family: 'Segoe UI', Arial, sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+.container {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+h1, h2 {
+  text-align: center;
+  color: #185a9d;
+}
+form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  justify-content: center;
+}
+form input, form button {
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+form button {
+  background: #43cea2;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+form button:hover {
+  background: #185a9d;
+}
+#expense-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1rem 0;
+}
+#expense-list li {
+  background: #e3eafc;
+  margin-bottom: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#summary {
+  background: #f7f7f7;
+  border-radius: 8px;
+  padding: 1rem;
+  color: #222;
+  font-size: 1rem;
+}
+#limit-info {
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #185a9d;
+  font-weight: bold;
+}
+.alert {
+  color: #fff;
+  background: #e74c3c;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 1rem;
+  display: none;
+  font-weight: bold;
+} 
